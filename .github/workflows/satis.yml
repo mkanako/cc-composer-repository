@@ -1,0 +1,16 @@
+name: netlify build trigger
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'satis.json'
+
+jobs:
+  netlify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl
+        uses: wei/curl@v1
+        with:
+          args: -X POST -d {} https://api.netlify.com/build_hooks/5e99c23cb31b1f7555df41e2

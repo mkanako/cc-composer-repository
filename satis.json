@@ -1,0 +1,26 @@
+{
+  "name": "cc/repository",
+  "homepage": "https://cc-composer-repository.netlify.app",
+  "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/mkanako/attacent.git"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/mkanako/labama.git"
+    }
+  ],
+  "require": {
+    "cc/attacent": "*",
+    "cc/labama": "*"
+  },
+  "archive": {
+    "directory": "dist",
+    "format": "zip",
+    "skip-dev": true
+  },
+  "require-all": false,
+  "require-dependencies": false,
+  "require-dev-dependencies": false
+}

@@ -9,11 +9,16 @@
     {
       "type": "github",
       "url": "https://github.com/mkanako/labama.git"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/mkanako/bmsf.git"
     }
   ],
   "require": {
     "cc/attacent": "*",
-    "cc/labama": "*"
+    "cc/labama": "*",
+    "cc/bmsf": "*"
   },
   "archive": {
     "directory": "dist",
